@@ -1,3 +1,5 @@
+//Checks how many legs are present when there is a certain number of chickens, cows, and pigs
+
 use std::io;
 
 fn main() {
