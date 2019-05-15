@@ -1,3 +1,4 @@
+//Own version of Guessing Game activity from Rust Language documentation (https://doc.rust-lang.org/book/)
 
 extern crate rand;
 
