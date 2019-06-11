@@ -27,8 +27,6 @@ fn main() {
 
     } else { 	
 	
-	println!("Random Number: {}", random);
-	
 	println!("Your Guess: {}", answer);
 	
 	    if answer == random {
@@ -37,9 +35,11 @@ fn main() {
 			
 		} else if answer > random {
             println!("too big");
+            continue 'wrong
 
         } else if answer < random {
-            println!("too small");		
+            println!("too small");
+            continue 'wrong		
 		}
 	}
     }
